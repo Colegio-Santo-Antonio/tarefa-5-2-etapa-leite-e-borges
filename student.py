@@ -7,3 +7,6 @@ for i in numero[-2::-2]:
     if 2*int(i)<10:
         pares.append(2*int(i))
     else:
+        pares.append(2*int(i)-10+1)
+    soma = sum(impares)+sum(pares)
+    if int(

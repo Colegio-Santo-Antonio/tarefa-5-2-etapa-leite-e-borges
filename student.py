@@ -1,5 +1,5 @@
-numero=input()
-impares=[ ]
+numero = input()
+impares = [ ]
 for i in numero[-1::-2]:
     impares.append(int(i))
 pares = []

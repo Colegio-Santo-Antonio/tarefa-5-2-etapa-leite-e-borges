@@ -1,7 +1,7 @@
 numero=input()
 impares=[ ]
 for i in numero[-1::-2]:
-    impares.append (int(i))
+    impares.append(int(i))
 pares = []
 for i in numero[-2::-2]:
   if 2*int(i)<10:

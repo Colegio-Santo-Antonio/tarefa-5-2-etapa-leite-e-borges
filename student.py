@@ -1,3 +1,4 @@
+# Leia uma string com o número do cartão
 numeros = input()
 impares= [ ]
 for i in numeros[-1::-2]:
